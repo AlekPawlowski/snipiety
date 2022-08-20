@@ -1,6 +1,7 @@
 // wykonywanie funkcji w przeglądarce
-window.testy = {
+const main = {
     logInConsole: function test(data = 'test'){
         console.log(data)
     }
-};
+}
+window.testy = main;
